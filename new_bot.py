@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS visit(
 connect.commit()
 connect.close()
 
-token = config.token
+token = "1077317399:AAExR_UVQgGKZFB5rST_Bvc9PkhdiYScewA"
 
 bot = telebot.TeleBot(token)
 
