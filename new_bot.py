@@ -1,3 +1,5 @@
+# created 24.03.2020 by RayOneKa
+
 import telebot
 import requests
 from telebot import types
