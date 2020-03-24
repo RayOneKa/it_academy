@@ -6,6 +6,7 @@ from telebot import types
 import sqlite3
 import datetime
 import urllib
+import config
 
 connect = sqlite3.connect('database.db')
 
@@ -23,7 +24,7 @@ CREATE TABLE IF NOT EXISTS visit(
 connect.commit()
 connect.close()
 
-token = "1077317399:AAExR_UVQgGKZFB5rST_Bvc9PkhdiYScewA"
+token = config.token
 
 bot = telebot.TeleBot(token)
 
